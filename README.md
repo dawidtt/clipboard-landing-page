@@ -47,4 +47,4 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Dawid](https://github.com/dawidtt)
+- GitHub - [Dawitt](https://github.com/dawidtt)
