@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [clipboard-landing-page](https://dawidtt.github.io/clipboard-landing-page/)
 
 ## My process
 
@@ -47,4 +47,4 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Website - [Dawid](https://github.com/dawidtt)
+- GitHub - [Dawitt](https://github.com/dawidtt)
