@@ -1,0 +1,294 @@
+/*
+========================================
+                SHARED CSS
+========================================
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.4) 40%,
+      rgba(255, 255, 255, 0.02) 98%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("./images/bg-header-mobile.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  color: #4c545d;
+}
+.main-images {
+  width: 80vw;
+}
+#main-container > * {
+  padding: 0 8% 0 8%;
+}
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+h2 {
+  padding: 0 20px;
+}
+p {
+  margin-top: 15px;
+  color: #9fabb2;
+}
+/*
+========================================
+                BUTTONS
+========================================
+*/
+.buttons {
+  margin: 40px 0 150px 0;
+}
+.buttons button {
+  width: 100%;
+  border-radius: 60px;
+  padding: 20px 0;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 00;
+  color: #ffffff;
+  opacity: 0.9;
+}
+button:hover {
+  opacity: 1;
+}
+
+.ios {
+  background-color: #26baa4;
+  box-shadow: 0px 12px 20px -7px rgba(21, 66, 58, 1);
+}
+.mac {
+  background-color: #6173ff;
+  box-shadow: 0px 12px 20px -7px rgba(27, 34, 80, 1);
+}
+/*
+========================================
+                HEADER
+========================================
+*/
+
+#header-img {
+  background-blend-mode: soft-light;
+  width: 100%;
+}
+header img {
+  margin-top: 100px;
+}
+header h1 {
+  margin: 60px 0 20px 0;
+}
+
+/*
+========================================
+                SNIPPETS
+========================================
+*/
+#snippets {
+  margin-bottom: 80px;
+}
+#snippets p {
+  margin-top: 20px;
+}
+.sub-description {
+  margin: 50px 0;
+}
+.sub-description p {
+  margin-top: 15px;
+}
+/*
+========================================
+            CLIPBOARD-ACCESS
+========================================
+*/
+#clipboard-access {
+  margin: 160px 0 70px 0;
+}
+#clipboard-access img {
+  margin-top: 50px;
+}
+
+/*
+========================================
+            WORKFLOW
+========================================
+*/
+#workflow {
+  margin-bottom: 100px;
+}
+.sub-workflow-descritpion {
+  margin: 80px 0;
+}
+.sub-workflow-descritpion img {
+  margin-bottom: 30px;
+}
+
+/*
+========================================
+            LOGOS
+========================================
+*/
+#logos {
+  margin-bottom: 120px;
+}
+.logo {
+  padding-bottom: 80px;
+}
+/*
+========================================
+                FOOTER
+========================================
+*/
+footer {
+  background-color: #f4f4f5;
+  display: flex;
+  flex-direction: column;
+}
+footer #footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #footer-logo img {
+  width: 20%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a {
+  margin: 10px 0;
+}
+
+#footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer-icons img {
+  margin: 40px 0;
+  padding: 0 30px 0 30px;
+}
+#footer-icons img:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #4c545d;
+}
+a:hover {
+  color: #26baa4 !important;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: 20px;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(255, 255, 255, 0.2) 90%,
+        rgba(255, 255, 255, 0.02) 98%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      url("./images/bg-header-desktop.png");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header,
+  .buttons,
+  #snippets,
+  #ios-and-mac-text {
+    padding: 0 25% 0 25% !important;
+  }
+  /*
+========================================
+                BUTTONS
+========================================
+*/
+  button {
+    max-width: 350px;
+  }
+  .ios {
+    margin-right: 10px !important;
+  }
+  /*
+========================================
+            UNDER SNIPPET 
+========================================
+*/
+
+  #under-snippet-description {
+    padding: 0 5% 0 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+  }
+  #under-snippet-description img {
+    width: 30%;
+  }
+  #description {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+  }
+
+  #clipboard-access img {
+    width: 60%;
+    margin-top: 100px;
+  }
+
+  /*
+========================================
+        UNER WORKFLOW DESCRIPTION
+========================================
+*/
+  #under-workflow-description {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sub-workflow-descritpion {
+    flex-basis: 25%;
+    margin-bottom: 200px;
+  }
+  #logos {
+    display: flex;
+    justify-content: space-around;
+  }
+  /*
+========================================
+           FOOTER
+========================================
+*/
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer #footer-logo img {
+    width: 50px;
+    margin: 0;
+  }
+}
